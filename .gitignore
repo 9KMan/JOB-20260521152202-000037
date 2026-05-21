@@ -1,0 +1,49 @@
+# Worker internals — never commit to GitHub
+pid
+role
+worker.log
+SPEC.txt
+TASK.txt
+
+# Proposal files — Winning Strategy: MinIO only, NOT GitHub
+PROPOSAL.md
+COVER_LETTER.txt
+
+# Dependencies and build artifacts
+node_modules/
+build/
+dist/
+
+# Environment files (secrets)
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+*.tgz
+.cache/
+
+# PROPOSAL.md and COVER_LETTER.txt should NOT be committed
+# They are uploaded to MinIO separately
+PROPOSAL.md
+COVER_LETTER.txt
+proposals/
